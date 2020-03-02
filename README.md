@@ -11,7 +11,7 @@ We can breakdown the process of conversion of text into braille in the following
   
 Let us discuss one by one what was used in our model.
 
-  1)For caprturing the image we used Raspberry Pi Camera V2 8 MP High resolution camera attached to a temporary base. The captured image shall be stored in the same directory as of the where the OCRFinal code shall run. In case of an E-document directly store the image in the Directory where the code will run.
+  1) For caprturing the image we used Raspberry Pi Camera V2 8 MP High resolution camera attached to a temporary base. The captured      image shall be stored in the same directory as of the where the OCRFinal code shall run. In case of an E-document directly store the image in the Directory where the code will run.
   
   2) Optical Character Recognition was done through a famous Open Source Model named as Tesseract OCR. This shall directly give us the text in the image and will be stored in a string.
   
